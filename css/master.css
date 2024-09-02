@@ -1051,10 +1051,8 @@ header nav .form i {
     outline: none;
 }
 .contact .content form textarea.main-input {
-    min-height: 200px;
-    max-height: 200px;
-    min-width: 100%;
-    max-width: 100px;
+    height: 200px;
+    resize: none;
 }
 .contact .content form input[type="submit"] {
     background-color: var(--main-color);
