@@ -972,6 +972,7 @@ header nav .form i {
     top: 50%;
     transform: translateY(-50%);
     left: 25px;
+    color: var(--main-color);
 }
 .subscribe form input[type="email"] {
     border: 1px solid white;
@@ -1044,12 +1045,16 @@ header nav .form i {
     border: 1px solid #ccc;
     margin-bottom: 30px;
     width: 100%;
+    color: var(--main-color);
 }
 .contact .content form .main-input:focus {
     outline: none;
 }
 .contact .content form textarea.main-input {
-    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100px;
 }
 .contact .content form input[type="submit"] {
     background-color: var(--main-color);
